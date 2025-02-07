@@ -24,7 +24,14 @@
 
             Console.WriteLine("\n" + film1.ToString() + "\n" + film2.ToString());
 
+			Karakter karakter1 = new("Bökő Emílió", 5, 214, 8);
+			Karakter karakter2 = new("Kelenföldi Ronáldo", 3);
 
+			karakter2.Tamadas();
+			karakter1.Gyogyulas(25);
+			karakter1.Szintlepes();
+
+            Console.WriteLine("\n" + karakter1.ToString() + "\n" + karakter2.ToString());
         }
 	}
 }
