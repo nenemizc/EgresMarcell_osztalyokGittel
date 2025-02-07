@@ -13,6 +13,18 @@
 			konyv1.Arnoveles(1000);
 
 			Console.WriteLine("\n" + konyv1.ToString() + "\n" + konyv1.HanyOldalMaradt(20));
-		}
+
+
+			Film film1 = new("Drive", "Nicolas Winding Refn", 100, "Thriller", true);
+			Film film2 = new("Skibidi Toilet the movie", "Michael Bay");
+
+			film1.Jatszas();
+			film2.MufajModositas("Dráma");
+			film1.HosszNovelese(12);
+
+            Console.WriteLine("\n" + film1.ToString() + "\n" + film2.ToString());
+
+
+        }
 	}
 }
