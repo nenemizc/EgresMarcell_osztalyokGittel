@@ -32,6 +32,15 @@
 			karakter1.Szintlepes();
 
             Console.WriteLine("\n" + karakter1.ToString() + "\n" + karakter2.ToString());
+
+			Urhajo urhajo1 = new("István", 2, 15, 85);
+            Urhajo urhajo2 = new("Szilárd", 15);
+
+			urhajo2.Indulas();
+			urhajo1.Tankolas(10);
+			urhajo1.Landolas();
+
+            Console.WriteLine("\n" + urhajo1.ToString() + "\n" + urhajo2.ToString());
         }
 	}
 }
