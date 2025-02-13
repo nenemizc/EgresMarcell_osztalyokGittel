@@ -13,7 +13,7 @@
 			konyv1.Arnoveles(1000);
 
 			Console.WriteLine("\n" + konyv1.ToString() + "\n" + konyv1.HanyOldalMaradt(20));
-
+			
 
 			Film film1 = new("Drive", "Nicolas Winding Refn", 100, "Thriller", true);
 			Film film2 = new("Skibidi Toilet the movie", "Michael Bay");
@@ -41,6 +41,15 @@
 			urhajo1.Landolas();
 
             Console.WriteLine("\n" + urhajo1.ToString() + "\n" + urhajo2.ToString());
+
+			Kem kem1 = new("Fasírt", "Albánia", 4, 10);
+			Kem kem2 = new("Bicikli", "Dzsibuti");
+
+			kem1.KuldetesInditasa();
+			kem2.VeszelySzintNovelese(3);
+			kem1.SikerEsejNovelese(15);
+
+            Console.WriteLine("\n" + kem1.ToString() + "\n" + kem2.ToString());
         }
 	}
 }
